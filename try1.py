@@ -15,7 +15,7 @@ print("sent a copy, did not change:", usernames, "\n")
 
 
 # ---------------------------------------
-# if you do want to change the list
+# if you DO want to change the list
 # not correct
 # greet each person, remove from the list
 def greet1(names):
