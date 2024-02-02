@@ -9,7 +9,7 @@ def create_mat(size_param):
     '''
     # create a 2D list, randomize
     size = size_param
-    mat = []
+    mat = [[(0,0,0)]*size for _ in range(size)]
     # print("zeros 2d list:", mat)
     # TODO
 
