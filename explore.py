@@ -21,3 +21,18 @@ my_list = [10, 11, 12, 13]
 print("\nthe original list is:", my_list)
 list_parameter(my_list)
 print("After the function call the list is:", my_list)
+
+
+
+
+
+print("\n\n--- ...aaaannddd the weird one ---")
+print("if the function reassigns the list, it is a *new* list")
+def reassign(lst):
+    lst = [1,2,3]
+
+ans = [0,0,0]
+reassign(ans)
+print("no change:", ans)
+
+
