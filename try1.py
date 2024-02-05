@@ -1,4 +1,4 @@
-# if you do not want to change the list
+# if you *do not* want to change the list
 # send a copy
 # iterate through, convert to upper case
 def ex1(names):
@@ -15,8 +15,8 @@ print("sent a copy, did not change:", usernames, "\n")
 
 
 # ---------------------------------------
-# if you DO want to change the list
-# not correct
+# if you *DO* want to change the list
+# **not correct**
 # greet each person, remove from the list
 def greet1(names):
     pass
@@ -27,7 +27,8 @@ print("tried to remove all:", usernames, "not correct\n")
 
 
 # ---------------------------------------
-# if you do want to change the list
+# if you *do* want to change the list
+# **CORRECT**
 # iterate through a copy
 # greet each person, remove from the list
 def greet2(names):
