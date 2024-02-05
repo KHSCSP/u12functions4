@@ -1,3 +1,5 @@
+print("\n--- Goal: does a function change the original argument?? ---")
+
 def simple_parameter(num):
     num = 10000000
     print("in the function the variable is:", num)
