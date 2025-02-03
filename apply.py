@@ -29,3 +29,7 @@
 # Exercise 4
 # write a function that receives a list
 # and swaps the first and last items
+# remember the swap algorithm:
+# temp = a
+# a = b
+# b = temp
