@@ -14,9 +14,9 @@ usernames = ['hannah', 'ty', 'margot']
 print("sent a copy, did not change:", usernames, "\n")
 
 
-# ---------------------------------------
+# -------**not correct**------------------
 # if you *DO* want to change the list
-# **not correct**
+
 # greet each person, remove from the list
 def greet1(names):
     pass
@@ -26,9 +26,8 @@ usernames = ['hannah', 'ty', 'margot']
 print("tried to remove all:", usernames, "not correct\n")
 
 
-# ---------------------------------------
+# -----------**CORRECT**-----------------
 # if you *do* want to change the list
-# **CORRECT**
 # iterate through a copy
 # greet each person, remove from the list
 def greet2(names):
