@@ -28,7 +28,7 @@ print("After the function call the list is:", my_list)
 
 
 
-print("\n\n--- ...aaaannddd the weird one ---")
+print("\n\n--- reassignment ---")
 print("if the function reassigns the list, it is a *new* list")
 def reassign(lst):
     lst = [1,2,3]

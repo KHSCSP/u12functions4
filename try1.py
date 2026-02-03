@@ -1,5 +1,8 @@
-# if you *do not* want to change the list
-# send a copy
+# Question:
+# When you send a list to a function,
+# does the function change the list?
+# Answer: it depends on what you send.
+
 # iterate through, convert to upper case
 def ex1(names):
     pass
@@ -14,20 +17,27 @@ usernames = ['hannah', 'ty', 'margot']
 print("sent a copy, did not change:", usernames, "\n")
 
 
-# -------**not correct**------------------
-# if you *DO* want to change the list
+
+
+
+
 
 # greet each person, remove from the list
 def greet1(names):
     pass
 
+
+# this will *not* change the original list
 usernames = ['hannah', 'ty', 'margot']
 # TODO call the function
 print("tried to remove all:", usernames, "not correct\n")
 
 
-# -----------**CORRECT**-----------------
-# if you *do* want to change the list
+
+
+
+
+# this *will* change the original list
 # iterate through a copy
 # greet each person, remove from the list
 def greet2(names):
