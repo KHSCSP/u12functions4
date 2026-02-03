@@ -20,9 +20,9 @@ print("sent a copy, did not change:", usernames, "\n")
 
 
 
-
-# --- next, assume we *do* want to modify the list ---
-# --- how can we *remove* from a list? ---
+# Question #2 - removing from a list
+# --- assume we *do* want to modify the list
+# --- how can we *remove* from a list?
 
 # greet each person, remove from the list
 # this will not remove all, why?
