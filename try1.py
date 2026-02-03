@@ -1,22 +1,31 @@
 # Question:
 # When you send a list to a function,
 # does the function change the list?
-# Answer: it depends on what you send.
+# Answer: it depends on what you send
+# and how you iterate through
 
-# iterate through, convert to upper case
-def ex1(names):
+
+# if your goal *is* to change the list, here is how
+# indexed loop, convert to upper case
+def change1(names):
     pass
 
-usernames = ['hannah', 'ty', 'margot']
-# change the list
-# TODO call the function
-print("sent the list, it changed:", usernames, "\n")
+# if your goal is to *not* change the list
+# here are two ways (enhanced loop, send copy)
+def no_change(names):
+    pass
+
+
 
 
 usernames = ['hannah', 'ty', 'margot']
-# do not change the list
-# TODO call the function, send a *copy*
-print("sent a copy, did not change:", usernames, "\n")
+# TODO call the functions
+print("did it change??", usernames, "\n")
+
+
+
+
+
 
 
 
@@ -26,26 +35,21 @@ print("sent a copy, did not change:", usernames, "\n")
 
 # greet each person, remove from the list
 # this will not remove all, why?
-def greet1(names):
+def greet_wrong(names):
     pass
-
-
-usernames = ['hannah', 'ty', 'margot']
-# TODO call the function
-print("did not remove all:", usernames, "\n")
-
-
 
 
 # this *will* remove all
 # iterate through a *copy*
 # greet each person, remove from the list
-def greet2(names):
+def greet_remove(names):
     pass
 
+
+
 usernames = ['hannah', 'ty', 'margot']
-# TODO call the function
-print("iterated through a copy:", usernames, "\n")
+# TODO call the functions
+print("did it remove all??", usernames, "\n")
 
 
 
