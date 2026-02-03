@@ -8,7 +8,7 @@
 
 # Exercise 2
 # create a new (empty) list named 'outbox'
-# create a function named 'send_messages', which receives two list parameters
+# create a function named 'send_messages', which receives two lists as parameters
 # this function should print each message from your list and move the message to your 'outbox' list
 # (remove it from the original list, add it to the 'outbox' list)
 # after calling the function print both lists to make sure the messages were correctly moved
