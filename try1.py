@@ -21,8 +21,8 @@ print("sent a copy, did not change:", usernames, "\n")
 
 
 
-# ---- next, assume we *do* want to modify the list ---
-
+# --- next, assume we *do* want to modify the list ---
+# --- how can we *remove* from a list? ---
 
 # greet each person, remove from the list
 # this will not remove all, why?
@@ -33,8 +33,6 @@ def greet1(names):
 usernames = ['hannah', 'ty', 'margot']
 # TODO call the function
 print("did not remove all:", usernames, "\n")
-
-
 
 
 
